@@ -1,0 +1,25 @@
+.wl-reset {
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  color: var(--wl-text);
+}
+
+.wl-surface {
+  background: var(--wl-surface);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: var(--wl-radius);
+}
+
+.wl-notch {
+  clip-path: polygon(
+    0 0,
+    calc(100% - var(--wl-notch-size)) 0,
+    100% var(--wl-notch-size),
+    100% 100%,
+    0 100%
+  );
+}
+
+.wl-focusable:focus-visible {
+  outline: none;
+  box-shadow: var(--wl-focus);
+}

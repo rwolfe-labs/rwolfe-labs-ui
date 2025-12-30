@@ -1,0 +1,21 @@
+:root {
+  --wl-accent: #2563eb;
+  --wl-bg: #0b0f17;
+  --wl-surface: #111827;
+  --wl-text: #e5e7eb;
+  --wl-muted: #9ca3af;
+  --wl-success: #22c55e;
+  --wl-warning: #f59e0b;
+  --wl-danger: #ef4444;
+
+  --wl-radius: 12px;
+  --wl-notch-size: 10px;
+
+  --wl-space-1: 8px;
+  --wl-space-2: 12px;
+  --wl-space-3: 16px;
+  --wl-space-4: 24px;
+  --wl-space-5: 32px;
+
+  --wl-focus: 0 0 0 3px rgba(37, 99, 235, 0.35);
+}
